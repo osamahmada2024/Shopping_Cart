@@ -119,7 +119,7 @@
     margin-right: 40px;
 }
 
-.filter-by-size {
+.filter-by-size#screen {
     float: left;
     margin-top: 100px;
 }
@@ -207,6 +207,12 @@
     margin-right: 0;
     margin-left: 0;
 }
+
+[dir="rtl"] .filter-by-size#screen {
+
+    float: right;
+}
+
 @media (max-width:980px) {
     #screen {
         float: none;
@@ -216,8 +222,8 @@
         margin-right: 10%;
         margin-bottom: 60px;
     }
-    
-    
+
+
     [dir="ltr"] .filter-by-size#screen {
         margin-left: 10%;
         margin-bottom: 60px;
