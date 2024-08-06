@@ -1,0 +1,64 @@
+/*general css*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+
+}
+
+.not_found {
+    margin-left: 76px;
+    margin-top: 47px;
+    text-shadow: 2px 2px blue;
+    font-size: 40px;
+}
+
+.create_products_icon {
+    border-radius: 50%;
+    text-align: center;
+    background-color: rebeccapurple;
+    height: 42px;
+    width: 42px;
+    line-height: 42px;
+    position: fixed;
+    bottom: 40px;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+
+.create_products_icon:hover {
+    opacity: 0.7;
+}
+
+.create_products_icon i {
+    color: #fff;
+}
+
+[dir="rtl"] .not_found {
+    margin-right: 76px;
+    margin-left: 0;
+}
+
+[dir="ltr"] .create_products_icon {
+    right: 40px;
+}
+
+[dir="rtl"] .create_products_icon {
+    left: 40px;
+}
+#menu_container p span{
+    background-color: #333;
+    color: #fff;
+    border-radius: 50%;
+    height: 17px;
+    width: 17px;
+    display: inline-block;
+    line-height: 17px;
+    text-align: center;
+}

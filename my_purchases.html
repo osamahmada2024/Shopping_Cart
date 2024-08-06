@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>shopping card | My Purchases</title>
+    <!-- add fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- add css style -->
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style_ar.css" />
+
+    <!-- add font awesome -->
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-content">
+          <div class="logo"><a href="index.html">shopping card</a></div>
+          <nav>
+            <ul id="links">
+              <li><a href="sign_in.html"> sign in</a></li>
+              <li><a href="sign_up.html"> sign up </a></li>
+              <li class="ar_en">
+                <a href="#" class="one" id="ar">Ar </a> | <a class="one" href="#" id="en"> En</a>
+              </li>
+            </ul>
+            <ul class="user-info" id="user-info">
+              <li><a href="protofolio.html" id="nameplace"></a></li>
+              <li class="myProducts">
+                <a href="my_products.html">my products</a>
+              </li>
+              <li class="fav-li">
+                <a href="my_favourites.html">
+                  fav <i class="fa fa-heart fa-1x user-info-heart"></i
+                ></a>
+              </li>
+              <li><i class="fa fa-shopping-cart fa-2x" id="shop"></i></li>
+              <div id="number"></div>
+              <div id="menu">
+                <div id="menu_container"></div>
+                <a href="my_purchases.html">my purchases </a>
+              </div>
+              <li><a href="#" id="log_out">log out</a></li>
+              <li><a href="my_views.html" id="my_views">my views</a></li>
+              <li class="ar_en">
+                <a href="#"  class="two" id="ar">Ar </a> | <a href="#" class="two" id="en"> En</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <section class="products">
+      <div class="container"></div>
+      <div class="no_product"></div>
+    </section>
+    <a class="create_products_icon" href="create_products.html"><i class="fa fa-plus"></i></a>
+    <!-- add javascript -->
+    <script src="js/direction.js"></script>
+    <script src="js/badges & menu & signout & user_change.js"></script>
+    <script src="js/my_purchases.js"></script>
+  </body>
+</html>

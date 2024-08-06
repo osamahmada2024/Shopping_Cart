@@ -1,0 +1,39 @@
+.edit-profile {
+    margin-top: 60px;
+}
+
+.profile_form {
+    padding: 90px;
+    height: 80vh;
+}
+
+.profile_form input {
+    height: 30px;
+    margin-bottom: 10px;
+    width: 100%;
+    border: 1px solid #ada7a7;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 2px;
+    font-size: 16px;
+    font-family: "Oswald", sans-serif;
+    transition: 0.4s;
+}
+
+.profile_form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    margin-top: 15px;
+    padding: 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: 0.6s;
+}
+
+.profile_form input:focus {
+    scale: 1.1;
+}
+
+.profile_form input[type="submit"]:hover {
+    opacity: 0.9;
+}

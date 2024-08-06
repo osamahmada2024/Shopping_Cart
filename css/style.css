@@ -1,0 +1,265 @@
+/*---- style for home & favourites & my purchases ----*/
+.products {
+    width: 60%;
+    float: left;
+}
+
+.products-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 2px solid #ddd;
+    padding: 20px;
+    background-color: #fff;
+
+}
+
+.container input {
+    border: 2px solid #ddd;
+    padding: 6px;
+    height: 33px;
+    width: 77vw;
+    margin-top: 50px;
+    display: inline-block;
+    outline: none;
+    transition: scale 0.5s, font-size 0.5s;
+    font-family: "Oswald", sans-serif;
+
+}
+
+.container input:focus {
+    scale: 1.1;
+    font-size: 18px;
+}
+
+.products>p {
+    font-size: 27px;
+}
+
+.products-item:nth-child(1) {
+    margin-top: 40px;
+}
+
+.products-item-image img {
+    width: 200px;
+    margin-right: 20px;
+
+}
+
+.products-item-image img {
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 255, 0.322);
+}
+
+.products-item-desc {
+    text-transform: capitalize;
+}
+
+.products-item-desc span {
+    display: block;
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.products-item-desc span:nth-child(4) {
+    color: #000000e1;
+    font-size: 13px;
+}
+
+.products-item-actions {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100px;
+    text-align: right;
+}
+
+.products-item-actions button {
+    width: 100px;
+    margin-left: auto;
+    background-color: darkgreen;
+    color: #fff;
+    padding: 10px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: scale 0.5s;
+    font-family: "Oswald", sans-serif;
+}
+
+.products-item-actions i {
+    display: block;
+    width: 20px;
+    margin-left: auto;
+    color: deeppink;
+    cursor: pointer;
+    position: relative;
+}
+
+.products-item-actions button:hover {
+    scale: 1.1;
+    font-size: 16px;
+    box-shadow: 2px 2px #ddd;
+}
+
+.products-item-actions i {
+    transition: scale 0.5s;
+}
+
+.products-item-actions i:hover {
+    scale: 1.1;
+}
+
+#button-my-product {
+    color: #fff;
+    background-color: darkgreen;
+    padding: 10px;
+    border: 2px solid #333;
+    cursor: pointer;
+    margin-top: 7px;
+    margin-right: 40px;
+}
+
+.filter-by-size {
+    float: left;
+    margin-top: 100px;
+}
+
+.filter-select {
+    width: 30vw;
+    padding: 5px;
+    margin-top: 10px;
+    background-color: #e8e8e8;
+    border: 0;
+}
+
+#my_profile {
+    /* background-color: #000; */
+    /* margin-top: 50px; */
+    /* margin-left: 0; */
+    /* margin-right: 90px; */
+    width: 50%;
+}
+
+#img_profile {
+    border-radius: 50%;
+    height: 320px;
+    margin: 10% 0;
+    width: 90%;
+    border: 2px solid #333;
+    margin-left: 28vw;
+}
+
+#edit-profile {
+    color: #fff;
+    background-color: darkgreen;
+    margin: 28px 35vw;
+    width: 136px;
+    height: 45px;
+    border: 2px solid #333;
+    cursor: pointer;
+    transition: opacity 0.8s;
+}
+
+#edit-profile:hover {
+    opacity: 0.6;
+}
+
+.edit-profile {
+    margin-top: 60px;
+}
+
+.profile_form {
+    padding: 20%;
+    height: 20%;
+}
+
+.profile_form input {
+
+    width: 100%;
+    border: 1px solid #ada7a7;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 2px;
+    font-size: 16px;
+    font-family: "Oswald", sans-serif;
+    transition: 0.4s;
+}
+
+.profile_form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    margin-top: 15px;
+    padding: 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: 0.6s;
+}
+
+.profile_form input:focus {
+    scale: 1.1;
+}
+
+.profile_form input[type="submit"]:hover {
+    opacity: 0.9;
+}
+
+#edit-profile {
+    margin-right: 0;
+    margin-left: 0;
+}
+@media (max-width:980px) {
+    #screen {
+        float: none;
+    }
+
+    [dir="rtl"] .filter-by-size#screen {
+        margin-right: 10%;
+        margin-bottom: 60px;
+    }
+    
+    
+    [dir="ltr"] .filter-by-size#screen {
+        margin-left: 10%;
+        margin-bottom: 60px;
+    }
+
+    .products-item {
+        flex-direction: column;
+    }
+
+    .products-item-actions {
+        flex-direction: row;
+    }
+
+    .filter-select {
+        width: 90vw;
+    }
+}
+
+@media (max-width:980px) {
+    #screen {
+        float: none;
+    }
+
+    [dir="rtl"] .filter-by-size#screen {
+        margin-right: 10%;
+        margin-bottom: 60px;
+    }
+
+    [dir="ltr"] .filter-by-size#screen {
+        margin-left: 10%;
+        margin-bottom: 60px;
+    }
+
+    .products-item {
+        width: 100%;
+        /* margin: 0 ; */
+    }
+
+    .filter-select {
+        width: 60vw;
+    }
+
+}
+
+/*-----------------------------------------------------------------------------*/

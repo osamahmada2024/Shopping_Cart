@@ -1,0 +1,41 @@
+.create_edit_products .container{
+    width: 100%;
+}
+.create_edit_products{
+    margin-top: 60px;
+    background-color: #333;
+    padding: 20px; 
+}
+.create_edit_products_form{
+    background:#f9f9f9 ;
+    padding: 90px;
+    height: 80vh;
+
+}
+.create_edit_products_form input,.create_edit_products_form select{
+height: 33px;
+margin-bottom: 7px;
+width: 100%;
+border:1px solid #ada7a7;
+border-radius: 10px;
+background-color: #fff;
+padding: 2px;
+font-size: 16px;
+font-family: "Oswald", sans-serif;
+transition: 0.4s;
+}
+.create_edit_products_form input[type="submit"]{
+    background-color: #333;
+    color: #fff;
+    margin-top: 15px;
+    padding: 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: 0.6s;
+}
+.create_edit_products_form input:focus,.create_edit_products_form select:focus{
+    scale:1.1 ;
+}
+.create_edit_products_form input[type="submit"]:hover{
+    opacity:0.9;
+}
